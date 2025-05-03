@@ -1,0 +1,13 @@
+{
+  "name": "drupal_recipe/paragon_layout_builder",
+  "description": "",
+  "type": "drupal-recipe",
+  "require": {
+    "drupal/gin": "^4",
+    "drupal/gin_lb": "2.0.x-dev@dev",
+    "drupal/layout_builder_browser": "^1.5",
+    "drupal/layout_builder_operation_link": "^2.0",
+    "drupal/section_library": "^1.1"
+  },
+  "license": "GPL-2.0-or-later"
+}

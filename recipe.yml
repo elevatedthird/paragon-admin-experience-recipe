@@ -1,0 +1,18 @@
+name: "Paragon Admin Experience"
+description: "This recipe sets up the Layout Builder for the Paragon project"
+type: "Content"
+recipes:
+install:
+  - gin theme
+  - gin_lb
+  - gin_toolbar
+  - layout_builder
+  - layout_builder_browser
+  - layout_builder_operation_link
+  - layout_discovery
+  - section_library
+config:
+  import:
+    gin: *
+    gin_lb: *
+  strict: true
