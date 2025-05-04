@@ -3,7 +3,7 @@ description: "This recipe sets up the Layout Builder for the Paragon project"
 type: "Content"
 recipes:
 install:
-  - gin_theme
+  - gin
   - gin_lb
   - gin_toolbar
   - layout_builder
