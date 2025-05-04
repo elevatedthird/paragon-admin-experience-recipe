@@ -15,4 +15,5 @@ config:
   import:
     gin: "*"
     gin_lb: "*"
+    layout_builder_browser: "*"
   strict: true
