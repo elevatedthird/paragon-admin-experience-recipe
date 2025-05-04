@@ -13,6 +13,6 @@ install:
   - section_library
 config:
   import:
-    gin: *
-    gin_lb: *
+    gin: "*"
+    gin_lb: "*"
   strict: true
