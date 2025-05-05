@@ -11,6 +11,7 @@ install:
   - layout_builder_browser
   - layout_builder_operation_link
   - layout_discovery
+  - navigation
   - section_library
 config:
   import:
