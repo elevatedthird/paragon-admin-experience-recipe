@@ -7,15 +7,35 @@ install:
   - gin_lb
   - gin_lb_plus
   - gin_toolbar
+  - navigation
   - layout_builder
   - layout_builder_browser
   - layout_builder_operation_link
   - layout_discovery
-  - navigation
   - section_library
 config:
+  strict: false
   import:
     gin: "*"
-    gin_lb: "*"
-    layout_builder_browser: "*"
-  strict: true
+    navigation: "*"
+  actions:
+    block.block.gin_account_menu:
+      setStatus: false
+    block.block.gin_main_menu:
+      setStatus: false
+    block.block.gin_powered:
+      setStatus: false
+    block.block.gin_search_form_wide:
+      setStatus: false
+    block.block.gin_search_form_narrow:
+      setStatus: false
+    block.block.gin_syndicate:
+      setStatus: false
+    block.block.gin_site_branding:
+      setStatus: false
+    gin_lb.settings:
+      simpleConfigUpdate:
+        hide_discard_button: false
+    system.theme:
+      simpleConfigUpdate:
+        admin: gin
