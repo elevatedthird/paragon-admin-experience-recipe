@@ -36,11 +36,6 @@ config:
     gin_lb.settings:
       simpleConfigUpdate:
         hide_discard_button: false
-    block.block.gin_primary_local_tasks:
-      setRegion: header
-      setWeight: -5
-      simpleConfigUpdate:
-        settings.secondary: true
     system.theme:
       simpleConfigUpdate:
         admin: gin
