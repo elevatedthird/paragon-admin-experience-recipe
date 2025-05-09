@@ -13,6 +13,8 @@ install:
   - layout_builder_operation_link
   - layout_discovery
   - section_library
+  - paragon_gin
+#  add paragon gin and core here
 config:
   strict: false
   import:

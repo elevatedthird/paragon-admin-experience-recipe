@@ -8,6 +8,7 @@
     "drupal/gin_lb": "^2.0@beta",
     "drupal/layout_builder_browser": "^1.5",
     "drupal/layout_builder_operation_link": "^2.0",
+    "drupal/paragon_gin": "^1.0",
     "drupal/section_library": "^1.1"
   },
   "license": "GPL-2.0-or-later",
