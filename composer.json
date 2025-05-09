@@ -7,6 +7,7 @@
     "drupal/gin": "^4",
     "drupal/gin_lb": "^2.0@beta",
     "drupal/inline_block_title_automatic": "^2.0",
+    "drupal/kinetic_extras": "1.0.x-dev@dev",
     "drupal/layout_builder_browser": "^1.5",
     "drupal/layout_builder_operation_link": "^2.0",
     "drupal/section_library": "^1.1"

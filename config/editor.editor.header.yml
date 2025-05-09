@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.header
+  module:
+    - ckeditor5
+format: header
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - sourceEditing
+      - style
+  plugins:
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<span class>'
+    ckeditor5_style:
+      styles:
+image_upload:
+  status: false
