@@ -3,6 +3,7 @@
   "description": "",
   "type": "drupal-recipe",
   "require": {
+    "drupal/environment_indicator": "^4.0",
     "drupal/field_group": "^4.0",
     "drupal/gin": "^4",
     "drupal/gin_lb": "^2.0@beta",
