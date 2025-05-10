@@ -30,6 +30,7 @@ composer require drupal_recipe/paragon_admin_experience_recipe:^1.0
 - Development and UX enhancements
 - Optional packages may include:
   - environment_indicator
+  - environment_indicator_ui
   - gin
   - gin_lb
   - gin_lb_plus
@@ -49,6 +50,12 @@ When a new release is available:
 ```bash
 composer update drupal_recipe/paragon_admin_experience_recipe
 ```
+
+## How to run
+```bash 
+recipe ../recipes/paragon_admin_experience_recipe
+```
+
 
 ## License
 
