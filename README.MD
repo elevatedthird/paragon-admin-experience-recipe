@@ -56,6 +56,12 @@ composer update drupal_recipe/paragon_admin_experience_recipe
 recipe ../recipes/paragon_admin_experience_recipe
 ```
 
+## Suggested Patches
+```.json
+"drupal/layout_builder_browser": {
+  "Fallback images for reusable blocks": "https://git.drupalcode.org/project/layout_builder_browser/-/merge_requests/28.diff"
+}
+```
 
 ## License
 
