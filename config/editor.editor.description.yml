@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.description
+  module:
+    - ckeditor5
+format: description
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - underline
+      - bulletedList
+      - numberedList
+      - link
+      - sourceEditing
+      - style
+  plugins:
+    ckeditor5_list:
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<span class>'
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Sample Class'
+          element: '<span class="sample-style">'
+image_upload:
+  status: false
