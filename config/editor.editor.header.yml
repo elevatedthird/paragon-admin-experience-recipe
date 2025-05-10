@@ -10,13 +10,8 @@ editor: ckeditor5
 settings:
   toolbar:
     items:
-      - sourceEditing
-      - style
-  plugins:
-    ckeditor5_sourceEditing:
-      allowed_tags:
-        - '<span class>'
-    ckeditor5_style:
-      styles:
+      - bold
+      - italic
+  plugins: {  }
 image_upload:
   status: false
