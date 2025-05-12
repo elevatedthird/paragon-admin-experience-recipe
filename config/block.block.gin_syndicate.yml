@@ -1,0 +1,23 @@
+uuid: f737ea77-46ed-4401-812a-bfd87b8fe2c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - gin
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: gin_syndicate
+theme: gin
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }
