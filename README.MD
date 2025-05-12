@@ -14,14 +14,14 @@ To use this recipe in your Drupal project:
 "repositories": [
   {
     "type": "vcs",
-    "url": "https://github.com/elevatedthird/paragon-admin-experience-recipe"
+    "url": "https://github.com/elevatedthird/paragon-admin-experience-recipe#master"
   }
 ]
 ```
 
 2. Require the recipe via Composer:
 ```bash
-composer require drupal_recipe/paragon_admin_experience_recipe:^1.0
+composer require drupal_recipe/paragon_admin_experience_recipe
 ```
 
 ## What’s Included
